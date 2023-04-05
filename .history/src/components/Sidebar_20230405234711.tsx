@@ -36,8 +36,6 @@ const Sidebar = () => {
           </div>
           <div className="sidebarChannelsList ">
             <SidebarChannnel />
-            <SidebarChannnel />
-            <SidebarChannnel />
           </div>
         </div>
       </div>

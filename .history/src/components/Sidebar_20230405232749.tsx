@@ -1,7 +1,6 @@
 import React from 'react'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import AddIcon from '@mui/icons-material/Add';
-import SidebarChannnel from './SidebarChannnel';
 
 const Sidebar = () => {
   return (
@@ -28,16 +27,11 @@ const Sidebar = () => {
         </div>
         <div className="sidebarChannels p-3">
           <div className="sidebarChannelsHeader flex text-white justify-between m-1 items-center">
-            <div className="sidebarHeader flex">
+            <div className="sidebarHeader">
               <ExpandMoreIcon />
               <h4>いのちゃんねる</h4>
             </div>
-            <AddIcon className='cursor-pointer' />
-          </div>
-          <div className="sidebarChannelsList ">
-            <SidebarChannnel />
-            <SidebarChannnel />
-            <SidebarChannnel />
+            <AddIcon />
           </div>
         </div>
       </div>

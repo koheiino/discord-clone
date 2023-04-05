@@ -28,15 +28,13 @@ const Sidebar = () => {
         </div>
         <div className="sidebarChannels p-3">
           <div className="sidebarChannelsHeader flex text-white justify-between m-1 items-center">
-            <div className="sidebarHeader flex">
+            <div className="sidebarHeader">
               <ExpandMoreIcon />
               <h4>いのちゃんねる</h4>
             </div>
             <AddIcon className='cursor-pointer' />
           </div>
           <div className="sidebarChannelsList ">
-            <SidebarChannnel />
-            <SidebarChannnel />
             <SidebarChannnel />
           </div>
         </div>
