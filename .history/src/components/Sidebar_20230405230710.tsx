@@ -1,6 +1,4 @@
 import React from 'react'
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-
 
 const Sidebar = () => {
   return (
@@ -20,10 +18,9 @@ const Sidebar = () => {
         </div>
       </div>
       {/* sidebarRight */}
-      <div className="sidebarRight bg-gray-600 w-80">
-        <div className="sidebarTop text-white flex items-center justify-between p-5">
+      <div className="sidebarRight from-gray-600">
+        <div className="sidebarTop ">
             <h3>Discord</h3>
-            <ExpandMoreIcon />
         </div>
       </div>
     </div>
